@@ -25,7 +25,7 @@
     
     NSString *buileVersion = [NSString stringWithFormat:@"BuileVersion：%@", [UIDevice appBundleVersion]];
     
-    NSString *bundleIdentifier = [NSString stringWithFormat:@"BundleIdentifier：%@",[UIDevice appBundleIdentifier]];
+    NSString *bundleIdentifier = [NSString stringWithFormat:@"APP标识符：%@",[UIDevice appBundleIdentifier]];
     
     self.deviceInfoLabel.text = [NSString stringWithFormat:@"%@\n%@\n%@\n%@",machineModelName, appVersion, buileVersion,bundleIdentifier];
     
